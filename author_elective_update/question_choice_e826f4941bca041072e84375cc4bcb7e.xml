@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Request Type">7a05f4541bca041072e84375cc4bcbe0</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-26 19:41:45</sys_created_on>
+        <sys_id>e826f4941bca041072e84375cc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>question_choice_e826f4941bca041072e84375cc4bcb7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-26 19:41:45</sys_updated_on>
+        <text>Legal</text>
+        <value>legal</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e826f4941bca041072e84375cc4bcb7e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>e826f4941bca041072e84375cc4bcb7e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-26 19:41:45</sys_created_on>
+        <sys_id>e0c670d41bca041072e84375cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-26 19:41:45</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>e826f4941bca041072e84375cc4bcb7e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-26 19:41:45</sys_created_on>
+        <sys_id>a8c670d41bca041072e84375cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-26 19:41:45</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>6dcc5b5cdb8f738449eac5970596199f</instance_id>
+        <instance_name>dev89923</instance_name>
+        <name>question_choice_e826f4941bca041072e84375cc4bcb7e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="Request Type">7a05f4541bca041072e84375cc4bcbe0</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 19:41:45</sys_created_on><sys_id>e826f4941bca041072e84375cc4bcb7e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Legal</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>question_choice_e826f4941bca041072e84375cc4bcb7e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 19:41:45</sys_updated_on><text>Legal</text><value>legal</value></question_choice><fx_price action="delete_multiple" query="id=e826f4941bca041072e84375cc4bcb7e"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>e826f4941bca041072e84375cc4bcb7e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 19:41:45</sys_created_on><sys_id>e0c670d41bca041072e84375cc4bcb4b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 19:41:45</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>e826f4941bca041072e84375cc4bcb7e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-26 19:41:45</sys_created_on><sys_id>a8c670d41bca041072e84375cc4bcb4a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-26 19:41:45</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>376696995</payload_hash>
+        <record_name>Legal</record_name>
+        <reverted_from/>
+        <source>788385801b8ac01072e84375cc4bcbca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-26 19:41:45</sys_created_on>
+        <sys_id>2cc6f8d41bca041072e84375cc4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f43baad670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-26 19:41:45</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e8c670d49dca04105396019fefdcf14c</update_guid>
+        <update_guid_history>e8c670d49dca04105396019fefdcf14c:376696995</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Legal">c688bc581bca041072e84375cc4bcb5b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-26 19:49:30</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0285489bbfb645008006ee8be6024000</sys_id>
+        <sys_metadata>e826f4941bca041072e84375cc4bcb7e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Request Type?">7a05f4541bca041072e84375cc4bcbe0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>question_choice_e826f4941bca041072e84375cc4bcb7e</sys_update_name>
+        <sys_update_version display_value="question_choice_e826f4941bca041072e84375cc4bcb7e">2cc6f8d41bca041072e84375cc4bcbb2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-26 19:49:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
